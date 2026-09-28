@@ -1,8 +1,8 @@
 import sys
 from PyQt6.QtWidgets import QApplication
 from database.database import Database
-from features.service import StudentService
-from features.view import StudentView
+from features.students.service import StudentService
+from features.students.view import StudentView
 
 def main() -> int:
     database = Database()
